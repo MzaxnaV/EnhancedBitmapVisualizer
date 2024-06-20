@@ -56,9 +56,9 @@ add_subdirectory($ENV{IMHEX_SDK_PATH} ImHexSDK)
 # as well as libwolv, libromfs, libfmt and ImGui, but you can link against any libraries you want
 add_imhex_plugin(
     NAME
-        example_plugin
+        enhanced_bitmap_visualizer
     SOURCES
-        source/example_plugin.cpp
+        source/enhanced_bitmap_visualizer.cpp
     INCLUDES
         include
 )
