@@ -59,6 +59,8 @@ add_imhex_plugin(
         enhanced_bitmap_visualizer
     SOURCES
         source/enhanced_bitmap_visualizer.cpp
+    LIBRARIES
+        nlohmann_json
     INCLUDES
         include
 )
